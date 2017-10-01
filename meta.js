@@ -72,7 +72,7 @@ module.exports = {
     },
     "unit": {
       "type": "confirm",
-      "message": "Setup unit tests with Karma + Mocha?"
+      "message": "Setup unit tests with Jest?"
     },
     "e2e": {
       "type": "confirm",
@@ -82,9 +82,8 @@ module.exports = {
   "filters": {
     ".eslintrc.js": "lint",
     ".eslintignore": "lint",
-    "config/test.env.js": "unit || e2e",
+    "config/test.env.js": "e2e",
     "test/unit/**/*": "unit",
-    "build/webpack.test.conf.js": "unit",
     "test/e2e/**/*": "e2e",
     "src/router/**/*": "router"
   },
