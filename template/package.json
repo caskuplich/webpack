@@ -97,6 +97,7 @@
     "not ie <= 8"
   ]{{#unit}},
   "jest": {
+    "coverageDirectory": "<rootDir>/test/unit/coverage",
     "mapCoverage": true,
     "moduleFileExtensions": [
       "js",
